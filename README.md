@@ -11,14 +11,14 @@ Under the main.py module, you can find the code that prints the process tree of 
         {"process_name": "h.exe", "pid": 11, "parent_pid": 7}
 ```
 Here's the output:
-c.exe
----a.exe
-------d.exe
----e.exe
-f.exe
----g.exe
-------b.exe
----------h.exe
+c.exe  
+---a.exe  
+------d.exe  
+---e.exe  
+f.exe  
+---g.exe  
+------b.exe  
+---------h.exe  
 
 In order to run the code, just run the main module.
 
