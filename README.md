@@ -10,7 +10,8 @@ Under the main.py module, you can find the code that prints the process tree of 
         {"process_name": "b.exe", "pid": 7, "parent_pid": 4},
         {"process_name": "h.exe", "pid": 11, "parent_pid": 7}
 ```
-Here's the output:  
+Here's the output:
+```code
 c.exe  
 ---a.exe  
 ------d.exe  
@@ -19,6 +20,7 @@ f.exe
 ---g.exe  
 ------b.exe  
 ---------h.exe  
+```
 
 In order to run the code, just run the main module.
 
